@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Estedad-medium";
+    src: url('../public/fonts/Estedad-Medium.ttf');
+}
+@font-face {
+    font-family: "Estedad-light";
+    src: url('../public/fonts/Estedad-Light.ttf');
+}
+@font-face {
+    font-family: "Estedad-bold";
+    src: url('../public/fonts/Estedad-SemiBold.ttf');
+}
+@font-face {
+    font-family: "Estedad-Xbold";
+    src: url('../public/fonts/Estedad-ExtraBold.ttf');
+}
+
+
+
+@layer utilities {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+   /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+  }
+  .text-stroke {
+    color: transparent;
+    -webkit-text-stroke: 1px #0D3BD0;
+  }
+  .faq-close{
+    @apply w-[808px] border-[1px] border-gray-300 bg-white h-[76px] flex items-center rounded-2xl px-4 gap-3 cursor-pointer
+  }
+  .faq-open{
+    @apply w-[808px] border-[1px] border-gray-300 bg-white h-[200px] flex flex-col rounded-2xl px-4 gap-3 cursor-pointer p-4
+  }
+}
