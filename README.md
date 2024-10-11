@@ -1,8 +1,4 @@
-# React + Vite
+# Auto Rent
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+آخرین پروژه ای هست که داشتم روش کار میکردم و تا الان فقط هوم پیج، صفحه 404 و تا حدودی صفحه لاگین رو پیاده کردم و کد نویسی اصلی رو هنوز انجام ندادم.
+فرانت پروژه با ری اکت نوشته شده، لیست ماشین ها از سرور Supabase با استفاده از React Query میاد و برای استایل ها هم از Tailwind CSS استفاده شده.
